@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.utils.TestngListeners" />
+    </listeners>
+
+    <test name="get Place with Valid Country Abbr and Postal">
+        <classes>
+            <class name="org.tests.PlacesTests">
+                <methods>
+                    <include name="getPlaceValidCountryAbbrPostal"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="get Place with Invalid Country and Mismatched Postal code">
+        <classes>
+            <class name="org.tests.PlacesTests">
+                <methods>
+                    <include name="getPlaceInvalidCountryMismatchPostal"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="get Place with Invalid Country abbr and Postal Code">
+        <classes>
+            <class name="org.tests.PlacesTests">
+                <methods>
+                    <include name="getPlaceInvalidCountryPostal"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="get Place with Valid Country Name and Postal Code">
+        <classes>
+            <class name="org.tests.PlacesTests">
+                <methods>
+                    <include name="getPlaceValidCountryNamePostal"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

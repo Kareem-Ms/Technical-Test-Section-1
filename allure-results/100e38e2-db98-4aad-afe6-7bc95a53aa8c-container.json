@@ -1,0 +1,1 @@
+{"uuid":"100e38e2-db98-4aad-afe6-7bc95a53aa8c","name":"org.tests.PlacesTests","children":["e2848187-5643-4825-b622-0cd97bdf0674"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1737025998815,"stop":1737025998816}],"afters":[],"start":1737025998812,"stop":1737025999347}
