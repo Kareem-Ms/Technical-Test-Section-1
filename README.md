@@ -12,10 +12,10 @@
 - Have a supporting Utilities package in src/main/java file path, named "utils" that includes many wrapper methods which services the project like ApiActions class
 
 ## Steps to Execute Code
-1- Clone the code from the Repository 
-2- Open POM.xml file then reload that file to install dependecies
-3- Go to "PlacesTests" class then run that class or you can open testng.xml file and then run thhis file
-4- You can access allure report by executing the following command "allure serve" in terminal after running the code
+- Clone the code from the Repository 
+- Open POM.xml file then reload that file to install dependecies
+- Go to "PlacesTests" class then run that class or you can open testng.xml file and then run thhis file
+- You can access allure report by executing the following command "allure serve" in terminal after running the code
 
 ## Code Explanation
 - Check the "TCs to be automated.xlsx" file in the repo to see the test cases that was automated
